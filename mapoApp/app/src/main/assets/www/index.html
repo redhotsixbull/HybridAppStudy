@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>title</title>
+</head>
+
+<body>
+<h1>ChekList Test</h1>
+
+<span>id</span><input type="text" id="id"><br>
+<span>pw</span><input type="password" id="pw"><br>
+
+ttt1<input type="checkbox" id="a">
+ttt2<input type="checkbox" id="b">
+ttt3<input type="checkbox" id="c">
+ttt4<input type="checkbox" id="d">
+
+
+
+<a href="#;" onclick="gogo();">ㄱㄱㄱ</a>
+
+</body>
+<script>
+function gogo(){
+    var id = document.getElementById('id').value;
+    if(id==""){
+        alert("없다");
+    }else{
+      Android.getData(id);
+    }
+}
+
+</script>
+</html>
